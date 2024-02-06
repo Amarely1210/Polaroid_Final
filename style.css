@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bowlby+One+SC&family=Caprasimo&family=Great+Vibes&family=Luckiest+Guy&family=Racing+Sans+One&family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bowlby+One+SC&family=Caprasimo&family=Great+Vibes&family=Homemade+Apple&family=Luckiest+Guy&family=Mountains+of+Christmas&family=Racing+Sans+One&family=Rock+Salt&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #c4f0ff;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+
+.banner {
+  background-color: #c5ddfc;
+  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 10px;
+  font-size: 300%
+  margin 5px;
+   text-align: CENTER;
+  margin: auto;
+  border: 5px solid;
+  font-family: 'Rock Salt', cursive;
+}
+
+.user-interface {
+  width: 100%;
+  height: same-as-width;
+  display: grid;
+  grid-template-columns: 25% 40% 25%;
+  padding: 10px;
+  margin-left: 5%;
+  justify-content: flex;
+}
+
+#button-holder {
+ background-color: white;
+  width: 180px;
+  height: 200px;
+  border: 5px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  align: left;
+}
+
+.ChangePhoto{
+  padding: 10px 20px;
+  font-family: 'Mountains of Christmas', serif;
+   margin: 10px;
+  border: 1px solid #333;
+  background-color:black;
+  color: #fff;
+  cursor: pointer
+    font-size 16px
+}
+
+.ChangeTitle{
+  padding: 10px 20px;
+  font-family: 'Mountains of Christmas', serif;
+  margin: 10px;
+  border: 1px solid #333;
+  background-color:black;
+  color: #fff;
+  cursor: pointer
+  font-size 16px;
+}
+
+.TheDay{
+  padding: 10px 20px;
+  font-family: 'Mountains of Christmas', serif;
+  margin: 10px;
+  border: 2px solid #333;
+  background-color:black;
+  color: #fff;
+  cursor: pointer  
+  font-size 16px;
+}
+
+#sketch-holder{
+  align: center;
+  padding: 10px;
+}
+
+#more-info{
+  margin: 10px;
+  background-color: white;
+  width: 180px;
+  height: 200px;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+#more-info img {
+  height:100%;
+  position:relative;
+}
